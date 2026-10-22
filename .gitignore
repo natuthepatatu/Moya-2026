@@ -1,0 +1,15 @@
+
+# Python environments
+.venv/
+.venv-py39-backup/
+__pycache__/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Downloaded archives
+*.zip
+
+# Authors reproduction package (available on OSF)
+authors-code/

@@ -1,0 +1,35 @@
+%YAML 1.1
+---
+version: https://codecheck.org.uk/spec/config/2.0/
+
+# --- Provided by the authors ---
+
+manifest:
+  - file: output/outcomes_report_pub.pdf
+
+paper:
+  title: "Do Laypeople Endorse the Axioms of Inequality Measurement? Outcomes Report of a Preregistered Replication and Extension of Amiel and Cowell (1992) in a U.S. General-Population Sample"
+  authors:
+    - name: Cristóbal Moya
+    - name: Carsten Schröder
+    - name: Philipp Lersch
+  reference: https://doi.org/10.71240/lcyc.829503
+
+# --- Added by the codechecker ---
+
+codechecker:
+  - name: Nataliia Petliak
+
+certificate: 2026-029
+
+# To be filled after reserving the certificate DOI
+report: null
+
+# To be completed after running the analysis
+summary: "The authors' computational reproduction workflow completed successfully using Docker with AMD64 emulation on an Apple Silicon host. The expected PDF report was generated. The initial Docker build failed due to an architecture mismatch, which was resolved by explicitly targeting linux/amd64 without modifying the authors' files."
+
+# Original reproduction package
+repository: https://doi.org/10.17605/OSF.IO/8Z2UV
+
+# To be filled after completing the check
+check_time: 2026-10-22
