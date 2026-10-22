@@ -48,7 +48,7 @@
   bottom: stroke,
 )
 
-#show regex("\(ORCID: ([0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4})\)"): it => {
+#show regex("\(ORCID: ([0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X])\)"): it => {
   pubmatter.orcid-link(orcid: it.text.trim(regex("\\(ORCID: ")).trim(regex("\\)")))
 }
 
