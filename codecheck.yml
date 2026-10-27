@@ -23,17 +23,18 @@ paper:
 
 codechecker:
   - name: Nataliia Petliak
+    ORCID: 0009-0008-3939-1244
 
 certificate: 2026-029
 
 # To be filled after reserving the certificate DOI
-report: null
+report: 10.5281/zenodo.23666248
 
 # To be completed after running the analysis
-summary: "The authors' computational reproduction workflow completed successfully using Docker with AMD64 emulation on an Apple Silicon host. The expected PDF report was generated. The initial Docker build failed due to an architecture mismatch, which was resolved by explicitly targeting linux/amd64 without modifying the authors' files."
+summary: "The authors' computational reproduction workflow completed successfully and generated the expected PDF report. An initial Docker build issue was resolved by explicitly selecting the target platform."
 
 # Original reproduction package
-repository: https://doi.org/10.17605/OSF.IO/8Z2UV
+repository: https://doi.org/10.5281/zenodo.23666248
 
 # To be filled after completing the check
 check_time: 2026-10-22

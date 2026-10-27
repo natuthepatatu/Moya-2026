@@ -1,5 +1,5 @@
 # CODECHECK certificate 2026-029
-## [None](None)
+## [10.5281/zenodo.23666248](10.5281/zenodo.23666248)
 [![CODECHECK logo](codecheck_logo.svg)](<https://codecheck.org.uk>)
 
 
@@ -15,10 +15,10 @@ Item | Value
 Title | *Do Laypeople Endorse the Axioms of Inequality Measurement? Outcomes Report of a Preregistered Replication and Extension of Amiel and Cowell (1992) in a U.S. General-Population Sample*
 Author(s) | Cristóbal Moya (ORCID: 0000-0002-7176-4775), Carsten Schröder (ORCID: 0000-0002-6406-595X), Philipp Lersch (ORCID: 0000-0003-3863-8301)
 Reference | [https://doi.org/10.71240/lcyc.829503](https://doi.org/10.71240/lcyc.829503)
-Repository | [https://doi.org/10.17605/OSF.IO/8Z2UV](https://doi.org/10.17605/OSF.IO/8Z2UV)
-Codechecker(s) | Nataliia Petliak
+Repository | [https://doi.org/10.5281/zenodo.23666248](https://doi.org/10.5281/zenodo.23666248)
+Codechecker(s) | Nataliia Petliak (ORCID: 0009-0008-3939-1244)
 Date of check | *2026-10-22*
-Summary | The authors' computational reproduction workflow completed successfully using Docker with AMD64 emulation on an Apple Silicon host. The expected PDF report was generated. The initial Docker build failed due to an architecture mismatch, which was resolved by explicitly targeting linux/amd64 without modifying the authors' files.
+Summary | The authors' computational reproduction workflow completed successfully and generated the expected PDF report. An initial Docker build issue was resolved by explicitly selecting the target platform.
 
 
 
@@ -37,7 +37,7 @@ File | Comment | Size (b)
 
 
 
-This check is based on the commit `2f301f91624777fc11c912e2667fc74255fee9aa`.
+This check is based on the commit `9db5e768fe187af3f8c9be24c86320cd7a42b0e7`.
 
 
 
@@ -46,7 +46,7 @@ This check is based on the commit `2f301f91624777fc11c912e2667fc74255fee9aa`.
 
 
 
-The authors' computational reproduction workflow completed successfully using Docker with AMD64 emulation on an Apple Silicon host. The expected PDF report was generated. The initial Docker build failed due to an architecture mismatch, which was resolved by explicitly targeting linux/amd64 without modifying the authors' files.
+The authors' computational reproduction workflow completed successfully and generated the expected PDF report. An initial Docker build issue was resolved by explicitly selecting the target platform.
 
 
 
@@ -151,7 +151,7 @@ The Dockerfile currently downloads the AMD64 version of Quarto regardless of the
 
 Consider updating the Dockerfile to support multiple architectures or documenting the need to build with `--platform linux/amd64` on ARM64 hosts.
 
-No other issues were encountered during the reproduction workflow.
+It would also be helpful to export each figure as a separate graphics file, in addition to the complete PDF report. This would make it easier to inspect individual figures, trace them back to the code that generated them, and include them explicitly in the reproduction manifest.
 
 ## Manifest files
 
@@ -170,7 +170,7 @@ Comment: *Reproduced PDF report containing the analyses, tables, and figures*
 
 
 
-Nataliia Petliak (*2026-10-22*). CODECHECK Certificate 2026-029. CODECHECK Community on Zenodo. [None](None)
+Nataliia Petliak (*2026-10-22*). CODECHECK Certificate 2026-029. CODECHECK Community on Zenodo. [10.5281/zenodo.23666248](10.5281/zenodo.23666248)
 
 
 
@@ -196,38 +196,38 @@ si.session_info(os=True, cpu=True, gpu=True, dependencies=True)
 
 
 ```bash
-urllib3	2.8.0
-ipython	9.17.1
-ipykernel	7.4.0
-platformdirs	4.13.5
-comm	0.2.3
-packaging	26.3
-psutil	7.2.2
 charset-normalizer	3.5.2
-appnope	1.0.0
-jupyter_client	8.10.0
-certifi	2026.10.19
-pyzmq	27.2.0
-PyYAML	6.0.3
-python-dateutil	3.0.0
-idna	3.20
-traitlets	5.16.1
-debugpy	1.8.22
-Pygments	2.21.0
+ipython	9.17.1
 numpy	2.5.4
-typing_extensions	4.16.0
-jupyter_core	5.9.1
-requests	2.34.2
-tornado	6.6
+PyYAML	6.0.3
+jupyter_client	8.10.0
+traitlets	5.16.1
+Pygments	2.21.0
 pandas	3.0.6
+pyzmq	27.2.0
+certifi	2026.10.19
 session-info2	0.4.2
+packaging	26.3
+platformdirs	4.13.5
+urllib3	2.8.0
+tornado	6.6
+psutil	7.2.2
+jupyter_core	5.9.1
+debugpy	1.8.22
+ipykernel	7.4.0
+requests	2.34.2
+python-dateutil	3.0.0
+typing_extensions	4.16.0
+comm	0.2.3
+idna	3.20
 six	1.17.0
+appnope	1.0.0
 ----	----
 Python	3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]
 OS	macOS-26.6.2-arm64-arm-64bit
 CPU	14/14 logical CPU cores, arm
 GPU	No GPU found
-Updated	2026-10-22 12:38
+Updated	2026-10-26 12:53
 ```
 
 
