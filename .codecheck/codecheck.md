@@ -30,14 +30,14 @@ Summary | The authors' computational reproduction workflow completed successfull
 
 File | Comment | Size (b)
 :--------------------- | :----------------------------------- | -------:
-`outcomes_report_pub.pdf` | Reproduced PDF report containing the analyses, tables, and figures | 634352
+`outcomes_report_pub.pdf` | Reproduced 25-page PDF report containing the analyses, tables, and figures. Only the first page is previewed in the certificate; the complete PDF is available in the GitHub repository. | 634352
 
 
 
 
 
 
-This check is based on the commit `9db5e768fe187af3f8c9be24c86320cd7a42b0e7`.
+This check is based on the commit `1c772ebdf0c6398878e7ce7255ff8cdd89196c7c`.
 
 
 
@@ -159,9 +159,9 @@ Summary of all reproduced output files (tables, text files, figures, ...).
 
 
 ### `output/outcomes_report_pub.pdf`
-Comment: *Reproduced PDF report containing the analyses, tables, and figures*
+Comment: *Reproduced 25-page PDF report containing the analyses, tables, and figures. Only the first page is previewed in the certificate; the complete PDF is available in the GitHub repository.*
 
-![Reproduced PDF report containing the analyses, tables, and figures](<outputs/output/outcomes_report_pub.pdf>)
+![Reproduced 25-page PDF report containing the analyses, tables, and figures. Only the first page is previewed in the certificate; the complete PDF is available in the GitHub repository.](<outputs/output/outcomes_report_pub.pdf>)
 
 
 
@@ -196,38 +196,38 @@ si.session_info(os=True, cpu=True, gpu=True, dependencies=True)
 
 
 ```bash
-charset-normalizer	3.5.2
-ipython	9.17.1
-numpy	2.5.4
-PyYAML	6.0.3
-jupyter_client	8.10.0
-traitlets	5.16.1
 Pygments	2.21.0
-pandas	3.0.6
+debugpy	1.8.22
+idna	3.20
 pyzmq	27.2.0
-certifi	2026.10.19
-session-info2	0.4.2
 packaging	26.3
 platformdirs	4.13.5
 urllib3	2.8.0
-tornado	6.6
 psutil	7.2.2
 jupyter_core	5.9.1
-debugpy	1.8.22
 ipykernel	7.4.0
-requests	2.34.2
-python-dateutil	3.0.0
-typing_extensions	4.16.0
-comm	0.2.3
-idna	3.20
-six	1.17.0
 appnope	1.0.0
+tornado	6.6
+typing_extensions	4.16.0
+session-info2	0.4.2
+comm	0.2.3
+charset-normalizer	3.5.2
+six	1.17.0
+python-dateutil	3.0.0
+pandas	3.0.6
+certifi	2026.10.19
+jupyter_client	8.10.0
+ipython	9.17.1
+PyYAML	6.0.3
+numpy	2.5.4
+requests	2.34.2
+traitlets	5.16.1
 ----	----
 Python	3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]
 OS	macOS-26.6.2-arm64-arm-64bit
 CPU	14/14 logical CPU cores, arm
 GPU	No GPU found
-Updated	2026-10-26 12:53
+Updated	2026-11-02 14:30
 ```
 
 
