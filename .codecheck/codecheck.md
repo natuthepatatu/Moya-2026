@@ -37,7 +37,7 @@ File | Comment | Size (b)
 
 
 
-This check is based on the commit `1c772ebdf0c6398878e7ce7255ff8cdd89196c7c`.
+This check is based on the commit `f72c71ddb7d339e9d459a8e7e9646d895b83f2b0`.
 
 
 
@@ -180,7 +180,7 @@ Nataliia Petliak (*2026-10-22*). CODECHECK Certificate 2026-029. CODECHECK Commu
 
 
 
-This certificate confirms that the codechecker could independently reproduce the results of a computational analysis given the data and code from a third party. A CODECHECK does not check whether the original computation analysis is correct. However, as all materials required for the reproduction are freely availableby following the links in this document, the reader can then study for themselves the code and data.
+This certificate confirms that the codechecker could independently reproduce the results of a computational analysis given the data and code from a third party. A CODECHECK does not check whether the original computation analysis is correct. However, as all materials required for the reproduction are freely available by following the links in this document, the reader can then study for themselves the code and data.
 
 
 
@@ -197,37 +197,37 @@ si.session_info(os=True, cpu=True, gpu=True, dependencies=True)
 
 ```bash
 Pygments	2.21.0
-debugpy	1.8.22
+charset-normalizer	3.5.2
 idna	3.20
+python-dateutil	3.0.0
+six	1.17.0
+typing_extensions	4.16.0
+psutil	7.2.2
+ipykernel	7.4.0
+urllib3	2.8.0
+tornado	6.6
+pandas	3.0.6
+jupyter_client	8.10.0
+debugpy	1.8.22
+session-info2	0.4.2
+PyYAML	6.0.3
+ipython	9.17.1
+comm	0.2.3
+requests	2.34.2
+appnope	1.0.0
+jupyter_core	5.9.1
+traitlets	5.16.1
 pyzmq	27.2.0
 packaging	26.3
 platformdirs	4.13.5
-urllib3	2.8.0
-psutil	7.2.2
-jupyter_core	5.9.1
-ipykernel	7.4.0
-appnope	1.0.0
-tornado	6.6
-typing_extensions	4.16.0
-session-info2	0.4.2
-comm	0.2.3
-charset-normalizer	3.5.2
-six	1.17.0
-python-dateutil	3.0.0
-pandas	3.0.6
 certifi	2026.10.19
-jupyter_client	8.10.0
-ipython	9.17.1
-PyYAML	6.0.3
 numpy	2.5.4
-requests	2.34.2
-traitlets	5.16.1
 ----	----
 Python	3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]
 OS	macOS-26.6.2-arm64-arm-64bit
 CPU	14/14 logical CPU cores, arm
 GPU	No GPU found
-Updated	2026-11-02 14:30
+Updated	2026-11-02 14:35
 ```
 
 
