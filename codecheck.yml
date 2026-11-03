@@ -6,7 +6,7 @@ version: https://codecheck.org.uk/spec/config/2.0/
 
 manifest:
   - file: output/outcomes_report_pub.pdf
-    comment: Reproduced 25-page PDF report containing the analyses, tables, and figures. Only the first page is previewed in the certificate; the complete PDF is available in the GitHub repository.
+    comment: Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate.
 
 paper:
   title: "Do Laypeople Endorse the Axioms of Inequality Measurement? Outcomes Report of a Preregistered Replication and Extension of Amiel and Cowell (1992) in a U.S. General-Population Sample"

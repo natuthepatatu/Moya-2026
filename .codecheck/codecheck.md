@@ -30,14 +30,14 @@ Summary | The authors' computational reproduction workflow completed successfull
 
 File | Comment | Size (b)
 :--------------------- | :----------------------------------- | -------:
-`outcomes_report_pub.pdf` | Reproduced 25-page PDF report containing the analyses, tables, and figures. Only the first page is previewed in the certificate; the complete PDF is available in the GitHub repository. | 634352
+`outcomes_report_pub.pdf` | Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. | 634352
 
 
 
 
 
 
-This check is based on the commit `f72c71ddb7d339e9d459a8e7e9646d895b83f2b0`.
+This check is based on the commit `7c308139fb97cc621d1c9b703a87e1575c41214e`.
 
 
 
@@ -159,10 +159,9 @@ Summary of all reproduced output files (tables, text files, figures, ...).
 
 
 ### `output/outcomes_report_pub.pdf`
-Comment: *Reproduced 25-page PDF report containing the analyses, tables, and figures. Only the first page is previewed in the certificate; the complete PDF is available in the GitHub repository.*
+Comment: *Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate.*
 
-![Reproduced 25-page PDF report containing the analyses, tables, and figures. Only the first page is previewed in the certificate; the complete PDF is available in the GitHub repository.](<outputs/output/outcomes_report_pub.pdf>)
-
+![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 1](<outputs/_pdf_pages/outcomes_report_pub/page-001.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 2](<outputs/_pdf_pages/outcomes_report_pub/page-002.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 3](<outputs/_pdf_pages/outcomes_report_pub/page-003.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 4](<outputs/_pdf_pages/outcomes_report_pub/page-004.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 5](<outputs/_pdf_pages/outcomes_report_pub/page-005.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 6](<outputs/_pdf_pages/outcomes_report_pub/page-006.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 7](<outputs/_pdf_pages/outcomes_report_pub/page-007.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 8](<outputs/_pdf_pages/outcomes_report_pub/page-008.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 9](<outputs/_pdf_pages/outcomes_report_pub/page-009.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 10](<outputs/_pdf_pages/outcomes_report_pub/page-010.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 11](<outputs/_pdf_pages/outcomes_report_pub/page-011.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 12](<outputs/_pdf_pages/outcomes_report_pub/page-012.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 13](<outputs/_pdf_pages/outcomes_report_pub/page-013.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 14](<outputs/_pdf_pages/outcomes_report_pub/page-014.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 15](<outputs/_pdf_pages/outcomes_report_pub/page-015.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 16](<outputs/_pdf_pages/outcomes_report_pub/page-016.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 17](<outputs/_pdf_pages/outcomes_report_pub/page-017.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 18](<outputs/_pdf_pages/outcomes_report_pub/page-018.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 19](<outputs/_pdf_pages/outcomes_report_pub/page-019.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 20](<outputs/_pdf_pages/outcomes_report_pub/page-020.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 21](<outputs/_pdf_pages/outcomes_report_pub/page-021.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 22](<outputs/_pdf_pages/outcomes_report_pub/page-022.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 23](<outputs/_pdf_pages/outcomes_report_pub/page-023.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 24](<outputs/_pdf_pages/outcomes_report_pub/page-024.png>)\n\n![Reproduced 25-page PDF report containing the analyses, tables, and figures. The complete report is included in this certificate. — page 25](<outputs/_pdf_pages/outcomes_report_pub/page-025.png>)\n
 
 
 ## Citing this document
@@ -196,38 +195,39 @@ si.session_info(os=True, cpu=True, gpu=True, dependencies=True)
 
 
 ```bash
-Pygments	2.21.0
+ipykernel	7.4.0
+debugpy	1.8.22
+requests	2.34.2
+tornado	6.6
+pyzmq	27.2.0
+numpy	2.5.4
+pandas	3.0.6
+packaging	26.3
 charset-normalizer	3.5.2
 idna	3.20
-python-dateutil	3.0.0
 six	1.17.0
-typing_extensions	4.16.0
-psutil	7.2.2
-ipykernel	7.4.0
-urllib3	2.8.0
-tornado	6.6
-pandas	3.0.6
-jupyter_client	8.10.0
-debugpy	1.8.22
-session-info2	0.4.2
-PyYAML	6.0.3
-ipython	9.17.1
-comm	0.2.3
-requests	2.34.2
-appnope	1.0.0
 jupyter_core	5.9.1
-traitlets	5.16.1
-pyzmq	27.2.0
-packaging	26.3
+jupyter_client	8.10.0
+PyYAML	6.0.3
+urllib3	2.8.0
+ipython	9.17.1
+python-dateutil	3.0.0
 platformdirs	4.13.5
+traitlets	5.16.1
 certifi	2026.10.19
-numpy	2.5.4
+appnope	1.0.0
+session-info2	0.4.2
+psutil	7.2.2
+pymupdf	2.1
+Pygments	2.21.0
+comm	0.2.3
+typing_extensions	4.16.0
 ----	----
 Python	3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]
 OS	macOS-26.6.2-arm64-arm-64bit
 CPU	14/14 logical CPU cores, arm
 GPU	No GPU found
-Updated	2026-11-02 14:35
+Updated	2026-11-03 09:55
 ```
 
 

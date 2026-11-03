@@ -375,19 +375,39 @@ This certificate confirms that the codechecker could independently reproduce the
         return [("Lines", f"{total:,}")], body
 
     def _image(self, fname, comment, path, ext):
-        """Extra info rows and Markdown of an image (embedded by Typst, so only formats supported by Typst)."""
+        """Embed images, including all pages of PDF files."""
         rows = []
+        alt = re.sub(r"[\\[\\]\\n]", " ", comment or fname)
+
+        if ext == ".pdf":
+            import pymupdf
+
+            with pymupdf.open(path) as doc:
+                rows.append(("Pages", str(len(doc))))
+                page_dir = self.outputs_dir / "_pdf_pages" / Path(fname).stem
+                page_dir.mkdir(parents=True, exist_ok=True)
+                images = []
+
+                for i, page in enumerate(doc):
+                    image_path = page_dir / f"page-{i + 1:03d}.png"
+                    page.get_pixmap(dpi=150, alpha=False).save(image_path)
+                    relative = image_path.relative_to(self.outputs_dir).as_posix()
+                    images.append(
+                        f"![{alt} — page {i + 1}]"
+                        f"(<{self.outputs_link}/{relative}>)"
+                    )
+
+            return rows, "\\n\\n".join(images) + "\\n"
+
         if ext not in VECTOR_EXTENSIONS:
             try:
                 from PIL import Image
                 with Image.open(path) as img:
                     rows.append(("Dimensions", f"{img.width} x {img.height} px"))
-            except (ImportError, OSError):  # Pillow is optional, the dimensions are not essential
+            except (ImportError, OSError):
                 pass
-        if ext == ".pdf":
-            rows.append(("Preview", "first page"))
-        alt = re.sub(r"[\[\]\n]", " ", comment or fname)
-        return rows, f"![{alt}](<{self.outputs_link}/{fname}>)\n"
+
+        return rows, f"![{alt}](<{self.outputs_link}/{fname}>)\\n"
 
     @staticmethod
     def _entry_heading(fname, comment):
