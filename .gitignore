@@ -13,3 +13,6 @@ __pycache__/
 
 # Authors reproduction package (available on OSF)
 authors-code/
+
+/.codecheck/codecheck.py.bak
+/.codecheck/outputs/_pdf_pages/

@@ -28,13 +28,13 @@ codechecker:
 certificate: 2026-029
 
 # To be filled after reserving the certificate DOI
-report: 10.5281/zenodo.23666248
+report: https://doi.org/10.5281/zenodo.23666248
 
 # To be completed after running the analysis
 summary: "The authors' computational reproduction workflow completed successfully and generated the expected PDF report. An initial Docker build issue was resolved by explicitly selecting the target platform."
 
 # Original reproduction package
-repository: https://doi.org/10.5281/zenodo.23666248
+repository: https://doi.org/10.17605/OSF.IO/8Z2UV
 
 # To be filled after completing the check
 check_time: 2026-10-22

@@ -397,7 +397,7 @@ This certificate confirms that the codechecker could independently reproduce the
                         f"(<{self.outputs_link}/{relative}>)"
                     )
 
-            return rows, "\\n\\n".join(images) + "\\n"
+            return rows, "\n\n".join(images) + "\n"
 
         if ext not in VECTOR_EXTENSIONS:
             try:
